@@ -1,19 +1,23 @@
 {
-  "author": "Alex Whitman <alex@alexwhitman.com>",
-  "name": "dobot-module-sandbox",
-  "description": "Run JS code",
-  "version": "0.0.0",
-  "homepage": "http://dobot.github.com/",
+  "name": "jarvis-module-sandbox",
+  "version": "0.1.0",
+  "description": "Sandbox module for Jarvis",
+  "main": "index.js",
+  "dependencies": {
+    "sandbox": "~0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dobot/dobot-module-sandbox.git"
+    "url": "git://github.com/jarvis-js/jarvis-module-sandbox.git"
   },
-  "keywords": ["bot"],
-  "engines": {
-    "node": ">=0.4.x"
-  },
-  "dependencies": {
-    "sandbox": ">=0.8.2"
-  },
-  "devDependencies": {}
+  "keywords": [
+    "Jarvis",
+    "sandbox"
+  ],
+  "author": "Alex Whitman <alex@alexwhitman.com>",
+  "license": "BSD"
 }
